@@ -197,7 +197,7 @@ Instead of analyzing 500 unnecessary variables, a company may only need the top 
 
 This improves operational efficiency.
 
-Step 5: Building the Optimized Dataset
+# Step 5: Building the Optimized Dataset
 
 After identifying important features, the project creates a filtered dataset.
 
@@ -205,13 +205,13 @@ Only high-value features are retained.
 
 This helps the model focus on meaningful patterns rather than irrelevant noise.
 
-Business Value
+# Business Value
 
 This step creates a lean and efficient predictive system, reducing computational expenses and improving deployment feasibility.
 
 For organizations processing millions of records daily, efficiency matters significantly.
 
-Step 6: Hyperparameter Tuning (Model Optimization)
+# Step 6: Hyperparameter Tuning (Model Optimization)
 
 The project then performs grid search optimization.
 
@@ -251,7 +251,7 @@ Produce unstable predictions
 
 Hyperparameter tuning helps find the best-performing model configuration.
 
-Business Benefit
+# Business Benefit
 
 This improves:
 
@@ -261,7 +261,7 @@ Decision confidence
 
 Organizations can trust model recommendations more confidently.
 
-Step 7: Model Performance Evaluation
+# Step 7: Model Performance Evaluation
 
 The model is evaluated using ROC-AUC Score.
 
@@ -281,13 +281,13 @@ Generalization ability
 
 Scatter plots are generated to compare performance across datasets.
 
-Why This Is Important
+# Why This Is Important
 
 Many models perform well on training data but fail in real-world deployment.
 
 This evaluation ensures the model works consistently on unseen data.
 
-Business Value
+# Business Value
 
 Companies can reduce:
 
@@ -301,7 +301,7 @@ In finance, this could reduce bad loans.
 
 In e-commerce, it could reduce customer churn.
 
-Step 8: Selecting the Best Model
+# Step 8: Selecting the Best Model
 
 The system calculates:
 
@@ -325,7 +325,7 @@ Repeatable
 
 A highly unstable model may cause inconsistent business outcomes.
 
-Step 9: Saving the Final Model
+# Step 9: Saving the Final Model
 
 The best XGBoost model is saved as a JSON file.
 
@@ -343,7 +343,7 @@ For example:
 
 A bank website could automatically evaluate customer risk instantly.
 
-Step 10: Explainable AI Using SHAP
+# Step 10: Explainable AI Using SHAP
 
 One of the most advanced parts of the project is SHAP Explainability.
 
@@ -441,7 +441,7 @@ Receive data-backed recommendations.
 
 Future Scope
 
-This project can be expanded significantly.
+# This project can be expanded significantly.
 
 1. Real-Time Prediction System
 
@@ -490,7 +490,7 @@ for better performance.
 
 Add fairness checks to reduce discriminatory predictions.
 
-Conclusion
+# Conclusion
 
 This project demonstrates a complete end-to-end machine learning workflow for predictive analytics using XGBoost and Explainable AI. By combining feature engineering, model optimization, rigorous evaluation, and SHAP-based transparency, the system produces reliable and interpretable predictions suitable for real-world business applications.
 
