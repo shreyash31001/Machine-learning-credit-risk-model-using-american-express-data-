@@ -1,11 +1,11 @@
 # Machine-learning-credit-risk-model-using-american-express-data-
-Project Overview
+# Project Overview
 
 This project is a machine learning-based predictive analytics system developed using the XGBoost algorithm to predict a target outcome from customer-level structured data. The main objective of the project is to identify patterns hidden within customer information and generate accurate predictions that can support business decision-making.
 
 The project follows a complete end-to-end machine learning pipeline, beginning with raw data preparation and ending with model interpretation using Explainable AI (SHAP).
 
-The system is designed to:
+# The system is designed to:
 
 Process customer-level data
 Identify the most important predictive variables
@@ -16,11 +16,11 @@ Explain predictions transparently
 
 This makes the solution practical for real-world business problems where prediction accuracy and interpretability are both important.
 
-Business Problem
+# Business Problem
 
 Many organizations struggle with making proactive decisions because large volumes of customer data remain underutilized.
 
-Traditional decision-making methods are:
+# Traditional decision-making methods are:
 
 Slow
 Manual
@@ -29,7 +29,7 @@ Unable to capture hidden patterns in complex datasets
 
 This project solves that problem by using machine learning to automate predictive decision-making.
 
-Depending on the industry, the project can be adapted to solve problems such as:
+# Depending on the industry, the project can be adapted to solve problems such as:
 
 Financial Services
 Credit default prediction
@@ -49,18 +49,18 @@ Risk modeling
 
 The main business goal is to help organizations make faster, smarter, and more data-driven decisions.
 
-Project Workflow (Step-by-Step Explanation)
+# Project Workflow (Step-by-Step Explanation)
 Step 1: Importing Required Libraries
 
 The first stage of the project involves importing all necessary Python libraries.
 
-Libraries used include:
+# Libraries used include:
 
 Data Manipulation
 Pandas
 NumPy
 
-Used for:
+# Used for:
 
 Reading datasets
 Cleaning data
@@ -70,7 +70,7 @@ Machine Learning
 Scikit-Learn
 XGBoost
 
-Used for:
+# Used for:
 
 Data splitting
 Model training
@@ -78,14 +78,14 @@ Performance evaluation
 Visualization
 Matplotlib
 
-Used for:
+# Used for:
 
 Model performance visualization
 Comparing AUC scores
 Explainable AI
 SHAP
 
-Used for:
+# Used for:
 
 Explaining model predictions
 Understanding feature importance
@@ -93,7 +93,7 @@ Business Importance
 
 This stage establishes the technical foundation of the project and ensures scalability for larger datasets in real business environments.
 
-Step 2: Loading the Dataset
+# Step 2: Loading the Dataset
 
 The dataset is loaded into the system using a CSV file.
 
@@ -105,11 +105,11 @@ A target variable (prediction outcome)
 
 The system converts raw structured data into a machine-readable format.
 
-Why This Matters
+# Why This Matters
 
 Raw business data is often unusable without preparation.
 
-This step ensures:
+# This step ensures:
 
 Centralized data processing
 Standardized input structure
@@ -117,19 +117,19 @@ Reliable downstream modeling
 
 For businesses, this means decision-making can happen using historical data instead of assumptions.
 
-Step 3: Customer-Level Data Splitting
+# Step 3: Customer-Level Data Splitting
 
 One of the strongest aspects of this project is the customer-based train-test split.
 
 Instead of randomly splitting rows, the model splits data based on unique customer IDs.
 
-This ensures:
+# This ensures:
 
 A customer appearing in training data does not appear in testing data.
 Data leakage is prevented.
 The model performs more realistically.
 
-The dataset is divided into:
+# The dataset is divided into:
 
 Training Set
 
@@ -143,18 +143,20 @@ Test Set 2
 
 Used for robustness checking.
 
-Why This Is Important
+# Why This Is Important
 
 In real business scenarios, companies want predictions on new customers, not customers already seen by the model.
 
 Without proper splitting, the model may appear artificially accurate.
 
-This approach improves:
+# This approach improves:
 
 Reliability
 Generalization
 Business trust in predictions
-Step 4: Feature Reduction (Finding Important Variables)
+
+
+# Step 4: Feature Reduction (Finding Important Variables)
 
 Large datasets often contain hundreds of features.
 
